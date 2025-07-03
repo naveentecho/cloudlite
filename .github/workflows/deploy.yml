@@ -13,7 +13,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: Build with Maven
-      run: mvn -B package --file app/pom.xml
+      run: mvn -B package
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v2
       with:
