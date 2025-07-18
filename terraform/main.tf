@@ -1,5 +1,8 @@
 provider "aws" {
   region = "us-east-2"
+  AWS_ACCESS_KEY_ID = "myaccesskey1-3c3f3"
+  AWS_SECRET_ACCESS_KEY="secretkey123-3f3v24g"
+  EC2_SSH_KEY = "98sfvsf-v9sfv9sfv-sfv89sfv"
 }
 
 # VPC
